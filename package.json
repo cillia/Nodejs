@@ -1,0 +1,29 @@
+{
+  "name": "node2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "./node_modules/.bin/nodemon"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.17.1",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "eslint": "^4.18.2",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "supertest": "^3.0.0"
+  }
+}
